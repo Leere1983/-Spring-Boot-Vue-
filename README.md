@@ -123,8 +123,6 @@ spring.datasource.password=root
 - **支付宝沙箱**：`alipay.app-id`、`alipay.merchant-private-key`、`alipay.alipay-public-key`、`alipay.gateway-url`、`alipay.notify-url`、`alipay.return-url`
 - **AI 问答**：`ai.enabled`、`ai.api-base`、`ai.api-key`、`ai.model`（默认 `qwen-turbo`，走阿里云百炼兼容模式）
 
-> ⚠️ **安全提醒**：配置文件中的支付宝**商户私钥**和 AI **API Key** 是真实凭据，请勿公开提交到代码仓库。答辩演示或代码分发前建议替换为自己的密钥，或改用环境变量注入。
-
 ### 3. 启动后端
 
 用 IDEA 以 Maven 项目打开 `java` 目录，等待依赖下载完成后，运行主启动类：
