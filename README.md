@@ -353,3 +353,5 @@ npm run build
 
 三、前端部署步骤
 首先，在 vue 目录下打开终端，执行 npm install 安装前端依赖。然后，检查前端 API 配置，确保后端接口地址指向 8080 端口。接着，执行 npm run dev 启动前端开发服务器，访问显示的地址即可打开系统。如果需要部署到生产环境，执行 npm run build 打包，将 dist 目录内容部署到 Nginx 等 Web 服务器即可。
+
+<img width="2148" height="1242" alt="ScreenShot_2026-10-14_155907_547" src="https://github.com/user-attachments/assets/814888a6-6e69-4a3f-8580-44c8f789db94" />
