@@ -1,0 +1,41 @@
+:root{
+  --my-font-size: 15px;
+  --my-color: #2b2b2b;
+  --my-body-background: #f2f2f2;
+  --container-width:1200px;
+}
+
+.el-select{
+  --el-select-width:250px;
+}
+
+
+.el-form--inline .el-form-item {
+  width: 220px;
+}
+
+.form-search .el-form--inline .el-form-item {
+  width: auto;
+}
+
+.user-info-desc{
+  font-size: 12px;
+  color: #999;
+  display: flex;
+  flex-wrap: wrap;
+  >span{
+    margin-right: 5px;
+    padding: 5px 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .el-form .el-form-item{
+    flex-flow: column;
+  }
+  .el-form .el-form-item__label {
+    width: 100% !important;
+    text-align: left!important;
+    justify-content: flex-start;
+  }
+}
